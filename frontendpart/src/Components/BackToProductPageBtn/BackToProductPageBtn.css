@@ -1,0 +1,16 @@
+.backButtonDiv > button {
+  padding: 5px 40px 5px 40px;
+  background: #2e0052;
+  border-radius: 14px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 660px) {
+  .backButtonDiv {
+    display: none;
+  }
+}

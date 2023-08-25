@@ -1,0 +1,52 @@
+.successContainer {
+  padding: 0px 80px 0px 80px;
+  height: 87vh;
+}
+.musicdiv {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.musicdiv > p {
+  font-weight: 600;
+  font-size: 44.1297px;
+  line-height: 52px;
+  margin: 0px;
+
+  color: #2e0052;
+}
+
+.orderSuccessDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 75vh;
+}
+.orderSuccessDiv > p:nth-child(2) {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.orderSuccessDiv > p:nth-child(3) {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  color: #969696;
+}
+.goToHomePage {
+  background: #2e0052;
+  border-radius: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 32px;
+  padding: 5px 40px 5px 40px;
+
+  color: #ffffff;
+}

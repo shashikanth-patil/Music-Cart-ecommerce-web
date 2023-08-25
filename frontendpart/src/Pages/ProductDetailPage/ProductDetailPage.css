@@ -1,0 +1,278 @@
+.productDetailContainer {
+  padding: 0px 80px 0px 80px;
+}
+.productDetailInnerContainer {
+  margin-top: 20px;
+}
+
+.pDiv {
+  display: flex;
+  flex-direction: row;
+}
+.pName {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.pDiv > div:nth-child(1) > img {
+  border: 5px solid black;
+  border-radius: 18px;
+  padding: 30px;
+  width: 370px;
+  height: 335px;
+}
+.pDiv > div:nth-child(2) {
+  padding-left: 40px;
+}
+.pName2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 61px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.pImageDiv {
+  display: flex;
+  align-items: center;
+}
+.pImageDiv > img {
+  width: 30px;
+  height: 30px;
+  margin: 5px 0px 10px 0px;
+}
+.pImageDiv > p {
+  font-weight: 400;
+  font-size: 29px;
+  margin: 5px 0px 10px 0px;
+
+  line-height: 34px;
+  color: #000000;
+  margin-left: 30px;
+}
+
+.pPrice {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #000000;
+}
+.pDetail {
+  display: flex;
+  flex-direction: row;
+}
+.pDetail > p {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+.pDetail > p:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pAbout {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.pStock > p {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #000000;
+}
+.pOtherImagesDiv {
+  display: flex;
+  flex-direction: row;
+}
+.pOtherImagesDiv > div:nth-child(1) > img {
+  cursor: pointer;
+  width: 160px;
+  height: 160px;
+  border: 5px solid #000000;
+  border-radius: 16px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 20px;
+}
+.pMobileViewContainer > div:nth-child(1) > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.addCartBtn {
+  background: #ffd600;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 30px;
+  align-items: center;
+  line-height: 39px;
+  padding: 5px 100px 05px 105px;
+
+  /* padding: 5px 100px 05px 100px; */
+  margin-left: 40px;
+  color: #000000;
+  cursor: pointer;
+  border: none;
+}
+.pMobileViewContainer > div:nth-child(1) > button:nth-child(2) {
+  background: #ffb800;
+  padding: 5px 100px 05px 105px;
+}
+
+.fa {
+  margin-left: -12px;
+  margin-right: 8px;
+}
+
+.pMobileViewContainer {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 660px) {
+  .movileViewPContainer {
+    display: none;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .productDetailContainer {
+    display: none;
+  }
+  .mobileViewAddToCartBTn {
+    margin-top: 100px;
+    margin-left: 20px;
+    background: #ffffff;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.33);
+    border: none;
+    border-radius: 50%;
+    padding: 3px 5px;
+  }
+  .qweriuh {
+    padding: 20px;
+  }
+  .sadkrdf {
+    background: #ffb800;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 21px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    color: #000000;
+  }
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .slide-image {
+    border: 2px solid #1e1e1e;
+    border-radius: 8px;
+    width: 250px;
+    padding: 30px;
+    height: 250px;
+  }
+  .mobileViewAddToCartBTnDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+  .buyNowBtn {
+    margin: 0px 20px;
+  }
+  .mobileViewAddToCartBTnDiv > button {
+    background: #ffd600;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 21px;
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    color: #000000;
+  }
+
+  .mobileViewAddToCartBTnDiv > button:nth-child(2) {
+    background: #ffb800;
+  }
+  .mobileViewPName {
+    margin: 0px 20px;
+  }
+  .mobileViewPName > p {
+    font-weight: 600;
+    font-size: 30.0063px;
+    margin-bottom: 10px;
+  }
+  .reviewDivision {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .btn {
+    margin: 0px 20px;
+  }
+  .reviewDivision > img {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+  }
+  .reviewDivision > p {
+    margin: 0px;
+
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+
+    color: #000000;
+  }
+  .mobileViewPAbout {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #000000;
+  }
+  .mobileViewPDetailsDiv {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .prev {
+    border: none;
+    font-size: 20px;
+    background: #ffb800;
+  }
+  .next {
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    background: #ffb800;
+  }
+}

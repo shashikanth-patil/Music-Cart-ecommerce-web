@@ -1,0 +1,222 @@
+* {
+  font-style: normal;
+  font-family: "DM Sans";
+}
+body {
+  margin: 0px;
+}
+.LoginContainer {
+}
+.loginContainer {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.LoginContainer {
+  height: 95vh;
+}
+.container > div:nth-child(1) {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > Form {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  align-items: start;
+  background: #ffffff;
+  border: 3px solid #d9d9d9;
+  border-radius: 23.2008px;
+  padding: 20px 30px 20px 30px;
+}
+.container > Form > label {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  line-height: 26px;
+
+  color: #000000;
+}
+.container > Form > input {
+  font-size: 20px;
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px 5px 15px;
+  align-items: start;
+  background: #ffffff;
+  border: 2px solid #b6b6b6;
+  border-radius: 8px;
+}
+.musicLogo {
+  width: 55px;
+  height: 50%;
+}
+.musicArt {
+  font-weight: 600;
+  font-size: 44.1297px;
+  line-height: 52px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+
+  color: #2e0052;
+}
+.createAccount {
+  font-weight: 400;
+  font-size: 49.2216px;
+  line-height: 58px;
+  margin: 0px;
+  color: #000000;
+}
+.numberVerification {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.termAndCondition {
+  font-weight: 400;
+  font-size: 17.75px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.continueBtn {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #2e0052;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 50px;
+  margin-top: 25px;
+
+  color: #ffffff;
+}
+.createAccountBtn {
+  cursor: pointer;
+
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 26px;
+  padding: 13px 0px 13px 0px;
+  text-align: center;
+
+  color: #000000;
+}
+.musicDiv {
+  display: flex;
+  width: 38%;
+  padding: 20px 30px 20px 30px;
+
+  flex-direction: column;
+  align-items: center;
+}
+.musicInnerDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.musicInnerDiv > p {
+  text-align: center;
+  width: 100%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.musicInnerDiv > div {
+  height: 0px;
+  width: 100%;
+  border: 2px solid #bdbdbd;
+}
+
+.signIn {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 25.1429px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.errorMsg {
+  color: red;
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+@media only screen and (max-width: 660px) {
+  .container > div:nth-child(1) {
+    background: #2e0052;
+    justify-content: start;
+  }
+  .musicLogo {
+    padding-left: 30px;
+  }
+  .musicArt {
+    color: white;
+  }
+  .container > Form {
+    width: 48vh;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  .createAccount {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .createAccountBtn {
+    width: 60vh;
+  }
+  .dhijuf {
+    display: flex;
+    width: 60vh;
+  }
+  .createAccountBtn {
+    margin-bottom: 90px;
+  }
+  .signIn {
+    margin-bottom: 90px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container > Form {
+    width: 40vh;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container > Form {
+    width: 34vh;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+}

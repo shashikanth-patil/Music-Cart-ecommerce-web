@@ -1,0 +1,39 @@
+.bdfghjs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hjklefrw {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.hjas {
+  margin: 10px 0px 10px 10px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  color: #2e0052;
+}
+.hijls {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.ghijcds {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background: #1d7000;
+  border-radius: 47px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 660px) {
+  .bdfghjs {
+    display: none;
+  }
+}
