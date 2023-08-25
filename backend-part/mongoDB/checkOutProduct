@@ -1,0 +1,8 @@
+const mongoose = require("mongoose");
+
+const checkOutProductSchema = new mongoose.Schema({
+  checkOutProductId: { type: String },
+  checkOutProductEmail: { type: String },
+  checkOutPageChaker: { type: Boolean },
+});
+module.exports = mongoose.model("checkOutProduct", checkOutProductSchema);
